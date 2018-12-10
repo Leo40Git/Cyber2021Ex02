@@ -19,6 +19,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void onButtonClick(View view) {
-        button.setText("Click number: " + ++clicks);
+        clicks++;
+        button.setText("Click number: " + clicks);
     }
 }
